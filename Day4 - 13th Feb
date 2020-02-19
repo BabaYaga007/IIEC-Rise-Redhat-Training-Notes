@@ -1,0 +1,23 @@
+Date - 13/02/2020
+RAM is called memory (as data is not stored permanently on it)
+Hard Disks and flash drives are called Storage (data is stored permanently)
+
+ps -aur => command shows all the processes running in the computer
+
+ps -aux | grep <program-name> => command will search all the processes related to the program and show them on the terminal
+
+kill <process-id> => command closses all instances of the program 
+
+cat <file-name> => prints the contents of the file on the terminal without opening them
+
+cat > <filename> => creates a new file and then lets you edit file on ther terminal and saves the file on pressing CTRL+D
+
+touch <filename> => just creates a new file
+
+Java supports live interpretor JSS (after Java 8)
+
+ REPL - Read Evaluate Print Loop 
+
+ if you want to run CLI commands in python-
+ 	import os
+ 	os.system("<command>")
